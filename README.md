@@ -30,13 +30,13 @@ Make a Copy of this Data Studio Dashboard and adjust to your project.dataset.tab
     `URL: https://datastudio.google.com/reporting/3f79b633-ac24-43b3-86c8-41f386ea514a`
 
 Buckets with Moonbank Data\
-Sample Data Bucket (2x small files): `gs://moonbank-mars-sample`
-Production Data Bucket (25x larger files): `gs://moonbank-mars-production`
+Sample Data Bucket (2x small files): `gs://roimck-mars-sample`
+Production Data Bucket (25x larger files): `gs://roimck-mars-production`
 
 ## CONVERSION TO PUB/SUB
 
 Subscribe to the Mars Activity Topic\
-`command: gcloud pubsub subscriptions create mars-activities --topic projects/moonbank-mars/topics/activities`
+`command: gcloud pubsub subscriptions create mars-activities --topic projects/roimck-mars/topics/activities`
 
 To include google-cloud-pubsub - add the following line to requirements.txt\
     `Line to add: google-cloud-pubsub==1.7.0`
