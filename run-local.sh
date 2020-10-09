@@ -1,6 +1,7 @@
 # MAKE SURE PROJECT IS SET
 # gcloud config set project PROJECT_ID
 echo $GOOGLE_CLOUD_PROJECT
+rm -R output
 mkdir output
 
 sudo pip3 install -r requirements.txt
