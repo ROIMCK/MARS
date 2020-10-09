@@ -6,4 +6,9 @@ gcloud services enable dataflow.googleapis.com
 sudo pip3 install -r requirements.txt
 python3 mars-cloud.py 
 read -p "Wait for Dataflow Job to Finish and then press enter"
-bq load mars.activities gs://"$GOOGLE_CLOUD_PROJECT""-bucket"/output/output*
+
+
+bq load --replace=true mars.activities gs://"$GOOGLE_CLOUD_PROJECT""-bucket"/output/output*
+
+# NOTE: Use this line to APPEND data to BigQuery (removes --replace=true)
+# bq load mars.activities gs://"$GOOGLE_CLOUD_PROJECT""-bucket"/output/output*
