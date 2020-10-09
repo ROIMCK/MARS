@@ -6,7 +6,7 @@ Make sure you have a project set\
     `Command: gcloud config set project YOURPROJECTNAME`
 
 Bucket named projectid-bucket
-    `Command: gsutil mk gs://$GOOGLE_CLOUD_PROJECT"-bucket"`
+    `Command: gsutil mb gs://$GOOGLE_CLOUD_PROJECT"-bucket"`
     
 Dataflow API enabled  (enabled via script in run-cloud.sh)\
     `Command: gcloud services enable dataflow.googleapis.com`
