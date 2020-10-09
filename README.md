@@ -5,7 +5,7 @@ Monitoring, Auditing and Reporting System (MARS)
 Make sure you have a project set\
     `Command: gcloud config set project YOURPROJECTNAME`
 
-Bucket named projectid-bucket
+Bucket named projectid-bucket\
     `Command: gsutil mb gs://$GOOGLE_CLOUD_PROJECT"-bucket"`
     
 Dataflow API enabled  (enabled via script in run-cloud.sh)\
