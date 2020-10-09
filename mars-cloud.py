@@ -25,7 +25,9 @@ def run():
     ]
 
     p = beam.Pipeline(argv=argv)
-    input = 'gs://roimck-mars-sample/*.csv'
+    input = 'gs://roimck-mars-sample/*.csv'  # approx 50mb of data
+    # Uncomment line below to run on full-scale production dataset (approx 3.5GB of data)
+    # input = 'gs://roimck-mars-production/*.csv'
     output = 'gs://' + bucketname + '/output/output'
 
     (p
