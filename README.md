@@ -27,7 +27,7 @@ BigQuery Table called "activities" - starting schema\
         customername:STRING`
 
 Make a Copy of this Data Studio Dashboard and adjust to your project.dataset.table\
-    `URL: https://datastudio.google.com/s/kvfsr03wwzA`
+    `URL: https://datastudio.google.com/s/j_vPqPTvMEM`
 
 Buckets with Moonbank Data\
 Sample Data Bucket (2x small files): `gs://roimck-mars-sample`
